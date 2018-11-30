@@ -1,0 +1,62 @@
+body{
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-attachment: fixed;
+}
+
+input{
+  width: 400px;
+  height: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: Georgia;
+}
+
+button{
+  width: 100px;
+  height: 35px;
+  font-size: 17px;
+  font-family: Georgia;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(93, 216, 167);
+}
+
+.click_video{
+  width: 650px;
+  height: 400px;
+}
+
+#video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -360px;
+  margin-top: -150px;
+  width: 656px;
+  border-color: white;
+}
+
+h1, label, button{
+  color: white;
+  text-align: center;
+}
+
+input{
+  margin-left: 90px;
+}
+
+button:hover{
+  background-color: #41BD8C ;
+  cursor: pointer;
+}
+
+#head{
+  top: 20%;
+  left: 60%;
+  margin-left: 20%;
+  margin-top: 50px;
+  width: 656px;
+  height: 80px;
+}
